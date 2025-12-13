@@ -1,0 +1,62 @@
+------------------------------------
+
+pycache/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+------------------------------------
+
+2. ENTORNO DE PYTHON (ANACONDA/VENV)
+
+------------------------------------
+
+Tu entorno virtual (para no subir librerías)
+
+.venv/
+env/
+yolo-gpu/  # Si tu entorno se llama yolo-gpu
+
+------------------------------------
+
+3. DATOS Y PESOS GENERADOS POR YOLO
+
+------------------------------------
+
+Carpeta de resultados de Ultralytics. ¡Esto evita subir GB de datos!
+
+runs/
+
+Archivos de pesos (.pt)
+
+*.pt
+
+Archivos de logs y resultados intermedios
+
+*.cache
+
+------------------------------------
+
+4. ARCHIVOS DE KAGGLE
+
+------------------------------------
+
+¡Nunca subas tus credenciales de API!
+
+.kaggle/
+kaggle.json
+
+------------------------------------
+
+5. DATASETS GRANDES
+
+------------------------------------
+
+Se ignoran los archivos ZIP y las carpetas grandes de imágenes
+
+*.zip
+datasets/birds-penguins-and-flamingos/images/
+
+Ignora la carpeta completa si es muy grande y se descarga con Kaggle
+
+datasets/

@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+ultralytics
+kaggle
+pandas
+numpy
+opencv-python
+matplotlib
+ipython
+pyyaml
+torch
+torchvision

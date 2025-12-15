@@ -43,8 +43,8 @@ Archivos de logs y resultados intermedios
 
 ¡Nunca subas tus credenciales de API!
 
-.kaggle/
-kaggle.json
+#.kaggle/
+#kaggle.json
 
 ------------------------------------
 

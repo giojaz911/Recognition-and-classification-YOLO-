@@ -29,7 +29,9 @@ runs/
 
 Archivos de pesos (.pt)
 
-*.pt
+yolo11l.pt 
+yolo11n.pt 
+yolo11s.pt
 
 Archivos de logs y resultados intermedios
 
@@ -60,3 +62,6 @@ datasets/birds-penguins-and-flamingos/images/
 Ignora la carpeta completa si es muy grande y se descarga con Kaggle
 
 datasets/
+
+project/
+

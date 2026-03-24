@@ -4,13 +4,12 @@ ultralytics
 kaggle
 pandas
 numpy
-opencv-python
 matplotlib
 ipython
 pyyaml
 torch
 torchvision
 streamlit
-ultralytics
-opencv-python-headless
 pillow
+# Usa headless también en dev para evitar conflictos con la nube
+opencv-python-headless

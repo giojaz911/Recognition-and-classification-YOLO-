@@ -77,9 +77,9 @@ with st.sidebar:
 # Asumimos que el modelo está en src/best.pt según tu estructura anterior
 MODEL_PATH = "src/best.pt" 
 
-# Si no existe localmente para pruebas rápidas, intenta buscar en la raíz o avisa
+
 if not os.path.exists(MODEL_PATH) and os.path.exists("best.pt"):
-    MODEL_PATH = "src/best.pt"
+    MODEL_PATH = "best.pt" # Si está en la raíz, usamos ese
 
 model = load_model(MODEL_PATH)
 
